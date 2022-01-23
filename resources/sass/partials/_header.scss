@@ -1,0 +1,46 @@
+@import 'generals';
+header{
+  display: flex;
+  align-content: center;
+  height: 90px;
+  width: 100%;
+  background-color: white;
+  color: black;
+  font-weight: bolder;
+  .container{
+    div img{
+    width: 70px;
+    vertical-align: middle;
+    }
+
+    nav{
+      ul{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        text-transform: uppercase;
+        margin-bottom: 0;
+        li{
+          a{  
+            text-decoration: none;
+            margin: 15px;
+            color: black;
+            &:hover,
+            &:active{
+              color: #0C7CEC;
+            }
+            span{
+              padding-bottom: 29px;
+            }
+            span.active{
+              color: #0C7CEC;
+              border-bottom: 5px solid #0C7CEC;
+            }
+          }
+        }
+        
+      }
+    }
+  }
+}
+  
