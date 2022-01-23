@@ -6,7 +6,17 @@
       <div class="current-series">Current series</div>
     </div>
   <div class="container boxes">
-    Funziona!!
+    @foreach ($comics as $comic)
+      <section>
+        <div class="card">
+          <img src="{{$comic['thumb']}}" alt="{{$comic['series']}}">
+        </div>
+        <div class="desc">
+          {{$comic['title']}}
+        </div>
+        
+      </section>
+    @endforeach
     {{-- <Card 
     v-for="(card, index) in cards" 
     :key="index"

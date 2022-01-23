@@ -76,6 +76,21 @@ main .boxes {
   flex-wrap: wrap;
   padding-top: 50px;
 }
+main .boxes .card {
+  width: 150px;
+  height: 150px;
+  margin: 5px;
+  overflow: hidden;
+}
+main .boxes .card img {
+  width: 100%;
+}
+main .boxes .desc {
+  width: 150px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  margin-left: 5px;
+}
 main .container.text {
   position: relative;
 }
