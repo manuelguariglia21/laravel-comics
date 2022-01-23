@@ -56,3 +56,73 @@ header .container nav ul li a span.active {
   color: #0C7CEC;
   border-bottom: 5px solid #0C7CEC;
 }
+
+footer .f-top {
+  height: 300px;
+  width: 100%;
+  background-image: url("../images/footer-bg.jpg");
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+footer .f-top .f-menu {
+  display: inline-block;
+  margin-right: 15px;
+}
+footer .f-top .f-menu ul {
+  list-style: none;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+footer .f-top .f-menu ul li {
+  font-size: 12px;
+}
+footer .f-top .f-menu ul li:first-of-type {
+  font-size: 16px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+footer .f-top .f-menu ul li a {
+  text-decoration: none;
+  color: white;
+}
+footer .f-top .f-menu ul li a span:hover, footer .f-top .f-menu ul li a span:active {
+  color: white;
+}
+footer .f-bottom {
+  height: 90px;
+  width: 100%;
+  background-color: #303030;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .f-bottom .fb-left .btn a {
+  font-weight: bolder;
+  text-decoration: none;
+  border: 2px solid #0086FF;
+  color: white;
+  text-transform: uppercase;
+  padding: 5px 10px;
+}
+footer .f-bottom .fb-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .f-bottom .fb-right span {
+  text-transform: uppercase;
+  color: #0086FF;
+  font-weight: bolder;
+}
+footer .f-bottom .fb-right span, footer .f-bottom .fb-right img {
+  padding-right: 15px;
+}
+footer .f-bottom .fb-right img:last-of-type {
+  padding-right: 0;
+}
