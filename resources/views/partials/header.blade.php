@@ -6,8 +6,8 @@
     <nav>
       <ul>
         {{-- <li @click="handleClick(menu, index)" v-for="(link, index) in menu" :key="index" ><a href="#" ><span :class="{'active': link.current === true}">{{link.text}}</span></a></li> Vue --}}
-        <li><a href="#"><span>Characters</span></a></li>
-        <li><a href="#"><span>Comics</span></a></li>
+        <li><a href="{{ route('home') }}"><span>Home</span></a></li>
+        <li><a href="{{ route('comics') }}"><span>Comics</span></a></li>
         <li><a href="#"><span>Movies</span></a></li>
         <li><a href="#"><span>Tv</span></a></li>
         <li><a href="#"><span>Games</span></a></li>
